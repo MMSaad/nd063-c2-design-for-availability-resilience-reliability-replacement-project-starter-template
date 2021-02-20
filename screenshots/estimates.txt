@@ -1,0 +1,15 @@
+Minimum RTO for a single AZ outage
+The needed time to promote read replica within same region
+AWS documentation : This is determined by many factors within your architecture, such as the size of your database
+
+Minimum RTO for a single region outage
+The needed time to promote read replica in the secondary region
+AWS documentation : This is determined by many factors within your architecture, such as the size of your database, the distance between the two Regions
+
+Minimum RPO for a single AZ outage
+The needed time to promote read replica within same region
+AWS documentation : This is determined by many factors within your architecture, such as the size of your database
+
+Minimum RPO for a single region outage
+The needed time to promote read replica in the secondary region
+AWS documentation : This is determined by many factors within your architecture, such as the size of your database, the distance between the two Regions
