@@ -1,4 +1,4 @@
-[ec2-user@ip-10-1-11-189 ~]$ mysql --host=udacity.cxd9ppwshkek.ca-central-1.rds.amazonaws.com --user=admin --password=Passw0rd 
+[ec2-user@ip-10-1-11-189 ~]$ mysql --host=udacity.cxd9ppwshkek.ca-central-1.rds.amazonaws.com --user=admin --password=******** 
 mysql: [Warning] Using a password on the command line interface can be insecure.
 Welcome to the MySQL monitor.  Commands end with ; or \g.
 Your MySQL connection id is 13
