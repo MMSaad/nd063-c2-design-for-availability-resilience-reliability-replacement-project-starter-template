@@ -3,16 +3,14 @@ Minimum RTO for a single AZ outage
 The needed time for RDS to auto promote read replica 
 
 Minimum RTO for a single region outage
-60–120 seconds
-The needed time for RDS to auto promote read replica 
+1 Hour
+The needed time for alert trigger and manual action to promote the read replica to take place of master database.
 
-
-AWS documentation : In the event of a planned or unplanned outage of your DB instance, Amazon RDS automatically switches to a standby replica in another Availability Zone if you have enabled Multi-AZ. The time it takes for the failover to complete depends on the database activity and other conditions at the time the primary DB instance became unavailable. Failover times are typically 60–120 seconds. However, large transactions or a lengthy recovery process can increase failover time. When the failover is complete, it can take additional time for the RDS console to reflect the new Availability Zone.
 
 Minimum RPO for a single AZ outage
 0 seconds
 No data will be lost due to have replica
 
 Minimum RPO for a single region outage
-5 minutes
-The needed time to restore database from point-in-time 
+45 minutes
+The needed time for alert trigger and manual action to stop system until promote the read replica to take place of master database and start the system again.
